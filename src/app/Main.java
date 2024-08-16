@@ -8,4 +8,7 @@ public class Main {
     private static double kmsToMiles(double kms){
         return kms / COEF_M;
     }
+    private static double milesToKms(double miles){
+        return miles * COEF_M;
+    }
 }
